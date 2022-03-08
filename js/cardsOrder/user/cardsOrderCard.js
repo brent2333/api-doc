@@ -1,0 +1,3 @@
+const cardsOrderCard = {"POST PAYLOAD": {"CardDistributionMethod":4,"Type":"Vehicle","cardType":{"cardTypeId":2,"title":"Vehicle"},"ProfileId":"3103492","DeliveryAddress":{"active":"true","addressType":null,"city":"Charlotte","country":"USA","deleted":null,"id":null,"line1":"P.O. Box 276 ","line2":null,"line3":null,"line4":null,"line5":null,"name":null,"state":"NC","street":null,"zipCode":"28270"},"Title":"BrentTestAPI","Alias":"99988899","Vin":"","LicensePlateNumber":"","Department":null,"SubDeptNo":"","User":{"FirstName":"Nitasha","LastName":"Singla"},"CustomerName":"Nitasha Singla"}};
+
+export default cardsOrderCard;
