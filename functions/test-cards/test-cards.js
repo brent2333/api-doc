@@ -11,14 +11,14 @@ const cards = [
     "CardId":"9999882",
     "CardToken":null,
     "LastFour":"************5916"
-  }
+  },
   {
     "Alias":"0332",
     "CardId":"1111332",
     "CardToken":null,
     "LastFour":"************1125"
   }
-]
+];
 const handler = async (event) => {
   try {
     const subject = event.queryStringParameters.name || 'World'
