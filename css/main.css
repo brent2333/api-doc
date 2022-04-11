@@ -1,0 +1,111 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    background: #222;
+    color: #ddd;
+}
+h1 {
+    margin-left: 20px;
+}
+.wrap {
+    display: flex;
+    padding: 10px;
+}
+.wrap div {
+    padding: 8px;
+}
+.left-col {
+flex-basis: 30%;
+}
+.middle-col {
+    flex-basis: 45%;
+}
+.middle-col div #bottom {
+    overflow-x: scroll;
+    max-width: 33vw;
+}
+.user-col {
+    flex-basis: 25%;
+}
+.user-col #user-resp {
+    overflow-x: scroll;
+    max-width: 33vw;
+}
+.eye {
+    background-image: url(eye.svg);
+    background-size: 20px;
+    height: 20px;
+    width: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    float: right;
+}
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    padding-bottom: 30px;
+    overflow: scroll;
+}
+#modal-content {
+    width: 50%;
+    height: 50%;
+    transform: translateX(50%);
+    margin-top: 10px;
+}
+#modal-content:after {
+    content: 'canary highlight = most important ui'
+}
+.ui-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ui-grid div {
+    flex: 1;
+    background: #ccc;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 5px;
+    color: #000;
+    margin: 4px;
+}
+.ui-grid div.special {
+    background: rgba(254, 250, 212,0.7);
+}
+.modal.active {
+    display: block;
+}
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+li {
+    min-height: 20px;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #aaa;
+    padding: 6px;
+    border-radius: 4px;
+    background: #ccc;
+    color: #000;
+}
+li:hover {
+    cursor: pointer;
+}
+li.red {
+    font-weight: bold;
+    color: red;
+}
+code {
+    white-space: normal;
+    overflow: scroll;
+}

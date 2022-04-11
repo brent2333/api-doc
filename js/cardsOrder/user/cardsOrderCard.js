@@ -1,0 +1,3 @@
+const cardsOrderCard = {"POST PAYLOAD": {"CardDistributionMethod":4,"Type":"Driver","cardType":{"cardTypeId":1,"title":"Driver"},"ProfileId":"2192842","DeliveryAddress":{"active":"true","addressType":null,"city":"COLUMBUS","country":"USA","deleted":null,"id":null,"line1":"1515 EAST BROAD ST ","line2":null,"line3":null,"line4":null,"line5":null,"name":null,"state":"OH","street":null,"zipCode":"43205"},"Title":"BP_USER_apipoc","Alias":"777997","Vin":"777997","LicensePlateNumber":"","Department":null,"SubDeptNo":"","User":{"FirstName":"bpqauser","LastName":"p"},"CustomerName":"bpqauser p"}};
+
+export default cardsOrderCard;
